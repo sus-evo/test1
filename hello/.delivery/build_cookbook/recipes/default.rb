@@ -1,7 +1,6 @@
 #
-# Cookbook:: hello
+# Cookbook:: build_cookbook
 # Recipe:: default
 #
 # Copyright:: 2020, The Authors, All Rights Reserved.
-
-log "Hello World!"
+include_recipe 'delivery-truck::default'
